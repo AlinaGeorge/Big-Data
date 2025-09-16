@@ -1,0 +1,5 @@
+Big data is the future.
+Hadoop is a big data framework.
+MapReduce is used to process big data.
+We love learning Hadoop and MapReduce.
+Big data helps in decision making.
