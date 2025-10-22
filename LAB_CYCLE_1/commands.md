@@ -12,6 +12,11 @@ bin/hbase-daemon.sh start regionserver
 bin/hbase shell
 create 'users', 'info'
 
+start-dfs.sh
+start-yarn.sh
+bin/beeline -n db_user -u jdbc:hive2://localhost:10000
+
+
 
 
 
