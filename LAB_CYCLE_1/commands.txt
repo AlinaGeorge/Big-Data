@@ -18,7 +18,7 @@ cd $HIVE_HOME
 bin/hiveserver2
 bin/beeline -n hadoop -u jdbc:hive2://localhost:10000
 hdfs dfs -put /home/hadoop/Desktop/sales_data.txt /user/hive/warehouse/sales_data.txt
-
+LOAD DATA INPATH '/user/hive/warehouse/sales_data.txt' INTO TABLE sales;
 
 
 
